@@ -1,8 +1,7 @@
 require("dotenv").config();
 
-
-const VERIFY_TOKEN = process.env.VERIFY_TOKEN;
-console.log(VERIFY_TOKEN)
+const MY_VERIFY_TOKEN = process.env.MY_VERIFY_TOKEN;
+console.log(MY_VERIFY_TOKEN)
 
 
 let test = (req, res) => {
@@ -12,7 +11,7 @@ let test = (req, res) => {
 
 let getWebhook = (req, res) => {
     // Your verify token. Should be a random string.
-    let VERIFY_TOKEN = VERIFY_TOKEN;
+    let VERIFY_TOKEN = MY_VERIFY_TOKEN;
 
 
     // Parse the query params
