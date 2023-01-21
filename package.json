@@ -6,7 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "babel-node src/server.js"
-
   },
   "author": "Chatchai Pummala",
   "license": "ISC",
@@ -20,6 +19,9 @@
     "@babel/core": "^7.20.12",
     "@babel/node": "^7.20.7",
     "@babel/preset-env": "^7.20.2",
+    "babel-cli": "^7.0.0-0",
+    "babel-core": "^7.0.0-beta.3",
+    "babel-preset-env": "^1.7.0",
     "prettier": "^2.2.1"
   },
   "repository": {
